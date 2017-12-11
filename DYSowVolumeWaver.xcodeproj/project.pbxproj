@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0164D3EC4C851A41B460B2 /* libPods-DYSowVolumeWaver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B997DF6412ABCD71A2ABF7 /* libPods-DYSowVolumeWaver.a */; };
+		F2982A0B1FDE6427007D6638 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2982A0A1FDE6427007D6638 /* AppDelegate.m */; };
+		F2982A0E1FDE6427007D6638 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2982A0D1FDE6427007D6638 /* ViewController.m */; };
+		F2982A111FDE6427007D6638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2982A0F1FDE6427007D6638 /* Main.storyboard */; };
+		F2982A131FDE6427007D6638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2982A121FDE6427007D6638 /* Assets.xcassets */; };
+		F2982A161FDE6427007D6638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2982A141FDE6427007D6638 /* LaunchScreen.storyboard */; };
+		F2982A191FDE6427007D6638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2982A181FDE6427007D6638 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BE9129313D8C89DB81B36CC /* Pods-DYSowVolumeWaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYSowVolumeWaver.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYSowVolumeWaver/Pods-DYSowVolumeWaver.release.xcconfig"; sourceTree = "<group>"; };
+		51B997DF6412ABCD71A2ABF7 /* libPods-DYSowVolumeWaver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYSowVolumeWaver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		799217B504C21AB7C5B443F7 /* Pods-DYSowVolumeWaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYSowVolumeWaver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYSowVolumeWaver/Pods-DYSowVolumeWaver.debug.xcconfig"; sourceTree = "<group>"; };
+		F2982A061FDE6427007D6638 /* DYSowVolumeWaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYSowVolumeWaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2982A091FDE6427007D6638 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2982A0A1FDE6427007D6638 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2982A0C1FDE6427007D6638 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2982A0D1FDE6427007D6638 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2982A101FDE6427007D6638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2982A121FDE6427007D6638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2982A151FDE6427007D6638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2982A171FDE6427007D6638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2982A181FDE6427007D6638 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2982A031FDE6427007D6638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0164D3EC4C851A41B460B2 /* libPods-DYSowVolumeWaver.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953A6429C0611245A99EF12A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				799217B504C21AB7C5B443F7 /* Pods-DYSowVolumeWaver.debug.xcconfig */,
+				3BE9129313D8C89DB81B36CC /* Pods-DYSowVolumeWaver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE148BBC0B77E86C44C700F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51B997DF6412ABCD71A2ABF7 /* libPods-DYSowVolumeWaver.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F29829FD1FDE6427007D6638 = {
+			isa = PBXGroup;
+			children = (
+				F2982A081FDE6427007D6638 /* DYSowVolumeWaver */,
+				F2982A071FDE6427007D6638 /* Products */,
+				953A6429C0611245A99EF12A /* Pods */,
+				CE148BBC0B77E86C44C700F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2982A071FDE6427007D6638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2982A061FDE6427007D6638 /* DYSowVolumeWaver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2982A081FDE6427007D6638 /* DYSowVolumeWaver */ = {
+			isa = PBXGroup;
+			children = (
+				F2982A091FDE6427007D6638 /* AppDelegate.h */,
+				F2982A0A1FDE6427007D6638 /* AppDelegate.m */,
+				F2982A0C1FDE6427007D6638 /* ViewController.h */,
+				F2982A0D1FDE6427007D6638 /* ViewController.m */,
+				F2982A0F1FDE6427007D6638 /* Main.storyboard */,
+				F2982A121FDE6427007D6638 /* Assets.xcassets */,
+				F2982A141FDE6427007D6638 /* LaunchScreen.storyboard */,
+				F2982A171FDE6427007D6638 /* Info.plist */,
+				F2982A181FDE6427007D6638 /* main.m */,
+			);
+			path = DYSowVolumeWaver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2982A051FDE6427007D6638 /* DYSowVolumeWaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2982A1C1FDE6427007D6638 /* Build configuration list for PBXNativeTarget "DYSowVolumeWaver" */;
+			buildPhases = (
+				D0F5D98490F35567CAE42A6C /* [CP] Check Pods Manifest.lock */,
+				F2982A021FDE6427007D6638 /* Sources */,
+				F2982A031FDE6427007D6638 /* Frameworks */,
+				F2982A041FDE6427007D6638 /* Resources */,
+				2A4EACB6A041A04700CC0F74 /* [CP] Embed Pods Frameworks */,
+				B43B1ED3A71A9A6C819F51AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYSowVolumeWaver;
+			productName = DYSowVolumeWaver;
+			productReference = F2982A061FDE6427007D6638 /* DYSowVolumeWaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29829FE1FDE6427007D6638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = HuYangYang.com;
+				TargetAttributes = {
+					F2982A051FDE6427007D6638 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2982A011FDE6427007D6638 /* Build configuration list for PBXProject "DYSowVolumeWaver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29829FD1FDE6427007D6638;
+			productRefGroup = F2982A071FDE6427007D6638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2982A051FDE6427007D6638 /* DYSowVolumeWaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2982A041FDE6427007D6638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2982A161FDE6427007D6638 /* LaunchScreen.storyboard in Resources */,
+				F2982A131FDE6427007D6638 /* Assets.xcassets in Resources */,
+				F2982A111FDE6427007D6638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A4EACB6A041A04700CC0F74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYSowVolumeWaver/Pods-DYSowVolumeWaver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B43B1ED3A71A9A6C819F51AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYSowVolumeWaver/Pods-DYSowVolumeWaver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F5D98490F35567CAE42A6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DYSowVolumeWaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2982A021FDE6427007D6638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2982A0E1FDE6427007D6638 /* ViewController.m in Sources */,
+				F2982A191FDE6427007D6638 /* main.m in Sources */,
+				F2982A0B1FDE6427007D6638 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2982A0F1FDE6427007D6638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2982A101FDE6427007D6638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2982A141FDE6427007D6638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2982A151FDE6427007D6638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2982A1A1FDE6427007D6638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2982A1B1FDE6427007D6638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2982A1D1FDE6427007D6638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799217B504C21AB7C5B443F7 /* Pods-DYSowVolumeWaver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DASH6JFSDW;
+				INFOPLIST_FILE = DYSowVolumeWaver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HuYangYang.DYSowVolumeWaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2982A1E1FDE6427007D6638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE9129313D8C89DB81B36CC /* Pods-DYSowVolumeWaver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DASH6JFSDW;
+				INFOPLIST_FILE = DYSowVolumeWaver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HuYangYang.DYSowVolumeWaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2982A011FDE6427007D6638 /* Build configuration list for PBXProject "DYSowVolumeWaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2982A1A1FDE6427007D6638 /* Debug */,
+				F2982A1B1FDE6427007D6638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2982A1C1FDE6427007D6638 /* Build configuration list for PBXNativeTarget "DYSowVolumeWaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2982A1D1FDE6427007D6638 /* Debug */,
+				F2982A1E1FDE6427007D6638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29829FE1FDE6427007D6638 /* Project object */;
+}

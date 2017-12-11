@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0255B8526BA12AF9F905891DE08EF8C0 /* Waver.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A8ECA39F6386B173A000C1C74E002A /* Waver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C03AAE99559178DDE2192BC1630DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
+		111306F1A81E34F5DDFD57A51F1CABD7 /* Pods-DYSowVolumeWaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F3835616035AF60977550552456665 /* Pods-DYSowVolumeWaver-dummy.m */; };
+		18BA60D4DA6658DFDCC0853CBE2D4EE0 /* GetVolumeLevelsFromeSampleBuffer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907F62B95382E52A62BFB502C756C5CD /* GetVolumeLevelsFromeSampleBuffer-dummy.m */; };
+		19FDB0BEBAAE3ACCEB1327550DE5229A /* SampleBufferToVolumeLevelsEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 594B5341DCF75761DE6CA7EE1779B8F1 /* SampleBufferToVolumeLevelsEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F9CBFF301570694158537693BBA8A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */; };
+		3A57037F89E9BF0D7B5C473BC138257A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
+		3C84436482D04E6F623CE61E3584B5B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */; };
+		80D741448BB0CCA317BD52B6D8693125 /* DYwaver.h in Headers */ = {isa = PBXBuildFile; fileRef = 09539FA862CF4B0F24EA994548A5FEE1 /* DYwaver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D7F7480126D127C4FD14B93E5FFFB23 /* Waver.m in Sources */ = {isa = PBXBuildFile; fileRef = 17907CE4E9D2495C2B2C454401024C1E /* Waver.m */; };
+		BCE259858651C3BDAE756239FB234CC8 /* DYwaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E669B9ED0495C37110188BC92C5AD66 /* DYwaver-dummy.m */; };
+		C344BB94BBC1C82CE29EA0FE86FAB471 /* GetVolumeLevelsFromeSampleBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2BA129C69A0B251ABC5D152B3A5CF2 /* GetVolumeLevelsFromeSampleBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90DBCA57EFB4A2491B5B7CA29C59901 /* SampleBufferToVolumeLevelsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4604067E5510B5DA70BF4833720EB3CA /* SampleBufferToVolumeLevelsEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF1A4FA7E4980026A334D1AA09CD564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A75128996AF8CFBFFB41E574915C98;
+			remoteInfo = DYwaver;
+		};
+		B6F43F6AD36D21611FD607F87DBE8EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FEF12A0044B3BD7A490F23AA8812C6;
+			remoteInfo = GetVolumeLevelsFromeSampleBuffer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C3DCB669C00A46682237035DC6A283 /* Pods-DYSowVolumeWaver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYSowVolumeWaver-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09539FA862CF4B0F24EA994548A5FEE1 /* DYwaver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYwaver.h; path = DYwaver/DYwaver.h; sourceTree = "<group>"; };
+		0E669B9ED0495C37110188BC92C5AD66 /* DYwaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYwaver-dummy.m"; sourceTree = "<group>"; };
+		14B537C2B07EB9B898C03C6CC88FD067 /* KSYMediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSYMediaPlayer.framework; path = framework/live/KSYMediaPlayer.framework; sourceTree = "<group>"; };
+		17907CE4E9D2495C2B2C454401024C1E /* Waver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Waver.m; path = DYwaver/Waver.m; sourceTree = "<group>"; };
+		2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		29A479553DE5A8AA0AC466695CF19734 /* DYwaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYwaver-prefix.pch"; sourceTree = "<group>"; };
+		2A82947EBC161F9F061746F76D6C2820 /* libDYwaver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDYwaver.a; path = libDYwaver.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2BA129C69A0B251ABC5D152B3A5CF2 /* GetVolumeLevelsFromeSampleBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetVolumeLevelsFromeSampleBuffer.h; path = GetVolumeLevelsFromeSampleBuffer/GetVolumeLevelsFromeSampleBuffer.h; sourceTree = "<group>"; };
+		3CA66528F92383A3AA60CEF773020C7E /* GetVolumeLevelsFromeSampleBuffer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GetVolumeLevelsFromeSampleBuffer-prefix.pch"; sourceTree = "<group>"; };
+		4604067E5510B5DA70BF4833720EB3CA /* SampleBufferToVolumeLevelsEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SampleBufferToVolumeLevelsEngine.m; path = GetVolumeLevelsFromeSampleBuffer/SampleBufferToVolumeLevelsEngine.m; sourceTree = "<group>"; };
+		594B5341DCF75761DE6CA7EE1779B8F1 /* SampleBufferToVolumeLevelsEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SampleBufferToVolumeLevelsEngine.h; path = GetVolumeLevelsFromeSampleBuffer/SampleBufferToVolumeLevelsEngine.h; sourceTree = "<group>"; };
+		6CC54F70DE794A01894F158371B1DBFE /* Pods-DYSowVolumeWaver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSowVolumeWaver-frameworks.sh"; sourceTree = "<group>"; };
+		840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		86E5CBEC9A9FA16C3C8E1F7C582BBD0B /* Pods-DYSowVolumeWaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSowVolumeWaver.debug.xcconfig"; sourceTree = "<group>"; };
+		8AE49A3E7640A78A108995E0B71BE1D2 /* libPods-DYSowVolumeWaver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DYSowVolumeWaver.a"; path = "libPods-DYSowVolumeWaver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		907F62B95382E52A62BFB502C756C5CD /* GetVolumeLevelsFromeSampleBuffer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GetVolumeLevelsFromeSampleBuffer-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19C5C73707B80940601E61966552AC7 /* Pods-DYSowVolumeWaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSowVolumeWaver.release.xcconfig"; sourceTree = "<group>"; };
+		A98585489A2DC99524203C493FD0BA09 /* GetVolumeLevelsFromeSampleBuffer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GetVolumeLevelsFromeSampleBuffer.xcconfig; sourceTree = "<group>"; };
+		AE6A552A6F1D22FAE5540F98B5C0D8AE /* Pods-DYSowVolumeWaver-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSowVolumeWaver-resources.sh"; sourceTree = "<group>"; };
+		B20244C06E205AA7CA8E55E1975B71F7 /* DYwaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYwaver.xcconfig; sourceTree = "<group>"; };
+		B3A8ECA39F6386B173A000C1C74E002A /* Waver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Waver.h; path = DYwaver/Waver.h; sourceTree = "<group>"; };
+		D0154C086226B458CF90792A3327B486 /* Pods-DYSowVolumeWaver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYSowVolumeWaver-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3F3835616035AF60977550552456665 /* Pods-DYSowVolumeWaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYSowVolumeWaver-dummy.m"; sourceTree = "<group>"; };
+		FD24A5019940D66B6F52F1E8E6E23A3D /* libGetVolumeLevelsFromeSampleBuffer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGetVolumeLevelsFromeSampleBuffer.a; path = libGetVolumeLevelsFromeSampleBuffer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A5A80556048A6D46A9A72278C0C0750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F9CBFF301570694158537693BBA8A6 /* AVFoundation.framework in Frameworks */,
+				3C84436482D04E6F623CE61E3584B5B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779A289D2319BF1538C81F174FBB55C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C03AAE99559178DDE2192BC1630DB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3428C521828A5B2DF6EB69AF7A43A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A57037F89E9BF0D7B5C473BC138257A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C43F4BAD2992BD9EE60E0C1AC390B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		489F85C3D999F56694B2C108844A214B /* GetVolumeLevelsFromeSampleBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				2C2BA129C69A0B251ABC5D152B3A5CF2 /* GetVolumeLevelsFromeSampleBuffer.h */,
+				594B5341DCF75761DE6CA7EE1779B8F1 /* SampleBufferToVolumeLevelsEngine.h */,
+				4604067E5510B5DA70BF4833720EB3CA /* SampleBufferToVolumeLevelsEngine.m */,
+				CD1264D61F780906BB7A8EFC1FA48DF4 /* Support Files */,
+			);
+			name = GetVolumeLevelsFromeSampleBuffer;
+			path = GetVolumeLevelsFromeSampleBuffer;
+			sourceTree = "<group>";
+		};
+		569C68D06D4C8B32108F00E2C5A1758D /* KSYMediaPlayer_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5ACA82897899236EEE5C42C5569E9EBC /* KSYMediaPlayer_live */,
+			);
+			name = KSYMediaPlayer_iOS;
+			path = KSYMediaPlayer_iOS;
+			sourceTree = "<group>";
+		};
+		5ACA82897899236EEE5C42C5569E9EBC /* KSYMediaPlayer_live */ = {
+			isa = PBXGroup;
+			children = (
+				A07943ED64414177B1010FEC9A3515EC /* Frameworks */,
+			);
+			name = KSYMediaPlayer_live;
+			sourceTree = "<group>";
+		};
+		636FC0F48C8A38495EB1BF56C6178A4C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20244C06E205AA7CA8E55E1975B71F7 /* DYwaver.xcconfig */,
+				0E669B9ED0495C37110188BC92C5AD66 /* DYwaver-dummy.m */,
+				29A479553DE5A8AA0AC466695CF19734 /* DYwaver-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DYwaver";
+			sourceTree = "<group>";
+		};
+		69F7ECFCA46B23F6DE4A373316390B43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C97120085DD7CED77B2D8ACDF7BEF3C2 /* DYwaver */,
+				489F85C3D999F56694B2C108844A214B /* GetVolumeLevelsFromeSampleBuffer */,
+				569C68D06D4C8B32108F00E2C5A1758D /* KSYMediaPlayer_iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7920B152E4480C51794856BD75A0CA00 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FACB6D71919F7524F37A2D9299D0CBF /* Pods-DYSowVolumeWaver */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				69F7ECFCA46B23F6DE4A373316390B43 /* Pods */,
+				DA4F272F538C15D0A9CFC5090C8BF96E /* Products */,
+				7920B152E4480C51794856BD75A0CA00 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FACB6D71919F7524F37A2D9299D0CBF /* Pods-DYSowVolumeWaver */ = {
+			isa = PBXGroup;
+			children = (
+				08C3DCB669C00A46682237035DC6A283 /* Pods-DYSowVolumeWaver-acknowledgements.markdown */,
+				D0154C086226B458CF90792A3327B486 /* Pods-DYSowVolumeWaver-acknowledgements.plist */,
+				F3F3835616035AF60977550552456665 /* Pods-DYSowVolumeWaver-dummy.m */,
+				6CC54F70DE794A01894F158371B1DBFE /* Pods-DYSowVolumeWaver-frameworks.sh */,
+				AE6A552A6F1D22FAE5540F98B5C0D8AE /* Pods-DYSowVolumeWaver-resources.sh */,
+				86E5CBEC9A9FA16C3C8E1F7C582BBD0B /* Pods-DYSowVolumeWaver.debug.xcconfig */,
+				A19C5C73707B80940601E61966552AC7 /* Pods-DYSowVolumeWaver.release.xcconfig */,
+			);
+			name = "Pods-DYSowVolumeWaver";
+			path = "Target Support Files/Pods-DYSowVolumeWaver";
+			sourceTree = "<group>";
+		};
+		A07943ED64414177B1010FEC9A3515EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14B537C2B07EB9B898C03C6CC88FD067 /* KSYMediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB9C43F4BAD2992BD9EE60E0C1AC390B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				840966EAD0718963750ABB9F4A6EB218 /* AVFoundation.framework */,
+				2828B7422B8C5C7BC4BF9C20A6D7B397 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C97120085DD7CED77B2D8ACDF7BEF3C2 /* DYwaver */ = {
+			isa = PBXGroup;
+			children = (
+				09539FA862CF4B0F24EA994548A5FEE1 /* DYwaver.h */,
+				B3A8ECA39F6386B173A000C1C74E002A /* Waver.h */,
+				17907CE4E9D2495C2B2C454401024C1E /* Waver.m */,
+				636FC0F48C8A38495EB1BF56C6178A4C /* Support Files */,
+			);
+			name = DYwaver;
+			path = DYwaver;
+			sourceTree = "<group>";
+		};
+		CD1264D61F780906BB7A8EFC1FA48DF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98585489A2DC99524203C493FD0BA09 /* GetVolumeLevelsFromeSampleBuffer.xcconfig */,
+				907F62B95382E52A62BFB502C756C5CD /* GetVolumeLevelsFromeSampleBuffer-dummy.m */,
+				3CA66528F92383A3AA60CEF773020C7E /* GetVolumeLevelsFromeSampleBuffer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GetVolumeLevelsFromeSampleBuffer";
+			sourceTree = "<group>";
+		};
+		DA4F272F538C15D0A9CFC5090C8BF96E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A82947EBC161F9F061746F76D6C2820 /* libDYwaver.a */,
+				FD24A5019940D66B6F52F1E8E6E23A3D /* libGetVolumeLevelsFromeSampleBuffer.a */,
+				8AE49A3E7640A78A108995E0B71BE1D2 /* libPods-DYSowVolumeWaver.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		776E6FE1F58D8138D9EAEFF0BB51B0FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D741448BB0CCA317BD52B6D8693125 /* DYwaver.h in Headers */,
+				0255B8526BA12AF9F905891DE08EF8C0 /* Waver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C186F5C8AEC277F63B6CE941E2AD4BBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C344BB94BBC1C82CE29EA0FE86FAB471 /* GetVolumeLevelsFromeSampleBuffer.h in Headers */,
+				19FDB0BEBAAE3ACCEB1327550DE5229A /* SampleBufferToVolumeLevelsEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45FEF12A0044B3BD7A490F23AA8812C6 /* GetVolumeLevelsFromeSampleBuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5C00E98B738B109D565E37E791FD54 /* Build configuration list for PBXNativeTarget "GetVolumeLevelsFromeSampleBuffer" */;
+			buildPhases = (
+				82F9C80DF80A033CE4E29B5964AB7721 /* Sources */,
+				6A5A80556048A6D46A9A72278C0C0750 /* Frameworks */,
+				C186F5C8AEC277F63B6CE941E2AD4BBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetVolumeLevelsFromeSampleBuffer;
+			productName = GetVolumeLevelsFromeSampleBuffer;
+			productReference = FD24A5019940D66B6F52F1E8E6E23A3D /* libGetVolumeLevelsFromeSampleBuffer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		70A75128996AF8CFBFFB41E574915C98 /* DYwaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04476A72B4FB52268FE04430448354A2 /* Build configuration list for PBXNativeTarget "DYwaver" */;
+			buildPhases = (
+				12EDC50275BBFAF99999C05F6BE88354 /* Sources */,
+				779A289D2319BF1538C81F174FBB55C4 /* Frameworks */,
+				776E6FE1F58D8138D9EAEFF0BB51B0FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYwaver;
+			productName = DYwaver;
+			productReference = 2A82947EBC161F9F061746F76D6C2820 /* libDYwaver.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8BF9691DC05C62F9998A78F6B30B3014 /* Pods-DYSowVolumeWaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F831E0EC9EC8E5EAE8D3D6F5CE9A009 /* Build configuration list for PBXNativeTarget "Pods-DYSowVolumeWaver" */;
+			buildPhases = (
+				00CE43DAE98A96DD9518021D1B16ABAA /* Sources */,
+				B3428C521828A5B2DF6EB69AF7A43A42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A00CF9DFF569E70948598183E6D978E /* PBXTargetDependency */,
+				EA2DC32529456098E38A20D065DEEFBA /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSowVolumeWaver";
+			productName = "Pods-DYSowVolumeWaver";
+			productReference = 8AE49A3E7640A78A108995E0B71BE1D2 /* libPods-DYSowVolumeWaver.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DA4F272F538C15D0A9CFC5090C8BF96E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70A75128996AF8CFBFFB41E574915C98 /* DYwaver */,
+				45FEF12A0044B3BD7A490F23AA8812C6 /* GetVolumeLevelsFromeSampleBuffer */,
+				8BF9691DC05C62F9998A78F6B30B3014 /* Pods-DYSowVolumeWaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CE43DAE98A96DD9518021D1B16ABAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111306F1A81E34F5DDFD57A51F1CABD7 /* Pods-DYSowVolumeWaver-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EDC50275BBFAF99999C05F6BE88354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE259858651C3BDAE756239FB234CC8 /* DYwaver-dummy.m in Sources */,
+				9D7F7480126D127C4FD14B93E5FFFB23 /* Waver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F9C80DF80A033CE4E29B5964AB7721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA60D4DA6658DFDCC0853CBE2D4EE0 /* GetVolumeLevelsFromeSampleBuffer-dummy.m in Sources */,
+				D90DBCA57EFB4A2491B5B7CA29C59901 /* SampleBufferToVolumeLevelsEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A00CF9DFF569E70948598183E6D978E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DYwaver;
+			target = 70A75128996AF8CFBFFB41E574915C98 /* DYwaver */;
+			targetProxy = ABF1A4FA7E4980026A334D1AA09CD564 /* PBXContainerItemProxy */;
+		};
+		EA2DC32529456098E38A20D065DEEFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GetVolumeLevelsFromeSampleBuffer;
+			target = 45FEF12A0044B3BD7A490F23AA8812C6 /* GetVolumeLevelsFromeSampleBuffer */;
+			targetProxy = B6F43F6AD36D21611FD607F87DBE8EEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB43C3BB186414467039F91EA3E7191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19C5C73707B80940601E61966552AC7 /* Pods-DYSowVolumeWaver.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EBFEA3B028F9201680895F5797EA36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98585489A2DC99524203C493FD0BA09 /* GetVolumeLevelsFromeSampleBuffer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GetVolumeLevelsFromeSampleBuffer/GetVolumeLevelsFromeSampleBuffer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2334D6273DF1B4F97ACCD3321894B42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E5CBEC9A9FA16C3C8E1F7C582BBD0B /* Pods-DYSowVolumeWaver.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		278D719C3C7D558C47DB9C931B943C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20244C06E205AA7CA8E55E1975B71F7 /* DYwaver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DYwaver/DYwaver-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EA1FABC3AA246D06E87D75FD84BDD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98585489A2DC99524203C493FD0BA09 /* GetVolumeLevelsFromeSampleBuffer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GetVolumeLevelsFromeSampleBuffer/GetVolumeLevelsFromeSampleBuffer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F658CCE5D63765FAFD2B8CD54E4B4A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20244C06E205AA7CA8E55E1975B71F7 /* DYwaver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DYwaver/DYwaver-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04476A72B4FB52268FE04430448354A2 /* Build configuration list for PBXNativeTarget "DYwaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F658CCE5D63765FAFD2B8CD54E4B4A7F /* Debug */,
+				278D719C3C7D558C47DB9C931B943C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F831E0EC9EC8E5EAE8D3D6F5CE9A009 /* Build configuration list for PBXNativeTarget "Pods-DYSowVolumeWaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334D6273DF1B4F97ACCD3321894B42D /* Debug */,
+				0AB43C3BB186414467039F91EA3E7191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5C00E98B738B109D565E37E791FD54 /* Build configuration list for PBXNativeTarget "GetVolumeLevelsFromeSampleBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBFEA3B028F9201680895F5797EA36F /* Debug */,
+				2EA1FABC3AA246D06E87D75FD84BDD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
