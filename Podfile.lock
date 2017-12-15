@@ -1,27 +1,32 @@
 PODS:
   - DYwaver (1.0.1)
-  - GetVolumeLevelsFromeSampleBuffer (1.0.1)
+  - GetVolumeLevelsFromeSampleBuffer (1.0.7)
   - KSYMediaPlayer_iOS (2.9.4):
     - KSYMediaPlayer_iOS/KSYMediaPlayer_live (= 2.9.4)
   - KSYMediaPlayer_iOS/KSYMediaPlayer_live (2.9.4)
 
 DEPENDENCIES:
   - DYwaver (from `https://github.com/doubleYang1020/DYwaver.git`)
-  - GetVolumeLevelsFromeSampleBuffer
+  - GetVolumeLevelsFromeSampleBuffer (from `https://github.com/doubleYang1020/GetVolumeLevelsFromeSampleBuffer.git`)
   - KSYMediaPlayer_iOS
 
 EXTERNAL SOURCES:
   DYwaver:
     :git: https://github.com/doubleYang1020/DYwaver.git
+  GetVolumeLevelsFromeSampleBuffer:
+    :git: https://github.com/doubleYang1020/GetVolumeLevelsFromeSampleBuffer.git
 
 CHECKOUT OPTIONS:
   DYwaver:
     :commit: 03bdd381d30a5d357f3f03dc70aa0dc111895171
     :git: https://github.com/doubleYang1020/DYwaver.git
+  GetVolumeLevelsFromeSampleBuffer:
+    :commit: 1e5d707cd0c2abc9fbd8220e366cec27a9dee7c6
+    :git: https://github.com/doubleYang1020/GetVolumeLevelsFromeSampleBuffer.git
 
 SPEC CHECKSUMS:
   DYwaver: 4b013fb72d15c2b351bcb9c94ef535708c18904d
-  GetVolumeLevelsFromeSampleBuffer: 12ae80b2443adee7a110344e86f5e95b2cdf3190
+  GetVolumeLevelsFromeSampleBuffer: 57d01ac751a066abdffac5cd10e0d27828d08507
   KSYMediaPlayer_iOS: 1e1f055c1494342b2c22758bbd0838e06985a2d5
 
 PODFILE CHECKSUM: 5346157bc1773222cbf5376c3fb8905a4ad266f0
